@@ -265,17 +265,26 @@ function Infografia({
           <div className="shrink-0">
             <div
               data-testid="img-logo"
-              className="nw-logo h-16 w-[180px] overflow-hidden rounded-xl border"
-              style={{
-                backgroundImage: `url(${logo})`,
-                backgroundSize: 'contain',
-                backgroundRepeat: 'no-repeat',
-                backgroundPosition: 'center',
-                backgroundColor: 'rgba(10, 14, 26, 0.4)'
-              }}
-              role="img"
-              aria-label="NextWave IA"
-            />
+              className="nw-logo-container relative h-20 w-[220px] overflow-hidden rounded-xl border border-white/10"
+            >
+              <div 
+                className="nw-logo-glow absolute inset-0 opacity-0 transition-opacity duration-700 group-hover:opacity-100"
+                style={{
+                  background: 'radial-gradient(circle at center, rgba(0, 212, 255, 0.4), transparent 70%)',
+                }}
+              />
+              <div
+                className="nw-logo-img h-full w-full bg-center bg-no-repeat"
+                style={{
+                  backgroundImage: `url(${logo})`,
+                  backgroundSize: '115%', // Zoom slighty to avoid cropped edges
+                  filter: 'contrast(1.1) brightness(1.1)',
+                }}
+                role="img"
+                aria-label="NextWave IA"
+              />
+              <div className="nw-logo-scanner absolute inset-0 pointer-events-none" />
+            </div>
           </div>
         </header>
 

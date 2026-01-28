@@ -300,6 +300,47 @@
     mask-image: radial-gradient(circle, black 55%, transparent 70%);
   }
 
+  .nw-logo-container {
+    background: rgba(10, 14, 26, 0.8);
+    box-shadow: 
+      0 0 20px rgba(0, 212, 255, 0.1),
+      inset 0 0 15px rgba(255, 255, 255, 0.05);
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .nw-logo-container:hover {
+    border-color: rgba(92, 225, 230, 0.4);
+    box-shadow: 
+      0 0 30px rgba(0, 212, 255, 0.25),
+      inset 0 0 20px rgba(92, 225, 230, 0.1);
+    transform: scale(1.02);
+  }
+
+  .nw-logo-img {
+    transition: transform 0.8s ease;
+  }
+
+  .nw-logo-container:hover .nw-logo-img {
+    transform: scale(1.05);
+  }
+
+  .nw-logo-scanner {
+    background: linear-gradient(to bottom, 
+      transparent, 
+      rgba(92, 225, 230, 0.2) 50%, 
+      transparent
+    );
+    height: 40%;
+    width: 100%;
+    top: -40%;
+    animation: nw-scan 3s linear infinite;
+  }
+
+  @keyframes nw-scan {
+    0% { top: -40%; }
+    100% { top: 100%; }
+  }
+
   .nw-logo {
     background-size: cover;
     background-position: center;
