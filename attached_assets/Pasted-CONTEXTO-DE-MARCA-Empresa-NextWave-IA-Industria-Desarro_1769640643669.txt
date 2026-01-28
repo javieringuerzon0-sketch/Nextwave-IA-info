@@ -1,0 +1,164 @@
+CONTEXTO DE MARCA:
+Empresa: NextWave IA
+Industria: Desarrollo Web, Automatización e Inteligencia Artificial
+Ubicación: La Paz, Baja California Sur, México
+Eslogan: "WEB | AUTOMATION | INTELLIGENCE"
+Estilo visual: Futurista, tecnológico, premium, profesional
+
+PALETA DE COLORES (OBLIGATORIA):
+- Fondo principal: #0a0e1a (azul oscuro profundo)
+- Cyan neón: #5ce1e6 y #00d4ff (acentos principales)
+- Púrpura: #8b5cf6 y #a78bfa (acentos secundarios)
+- Dorado premium: #fbbf24 (para paquetes top)
+- Blanco: #ffffff (textos principales)
+- Gris: #94a3b8 (textos secundarios)
+
+ESTILO VISUAL REQUERIDO:
+- Estética dark mode/modo oscuro futurista
+- Efectos de brillo neón sutiles en cyan y púrpura
+- Líneas de circuitos o patrones tech en el fondo
+- Gradientes suaves de cyan a púrpura
+- Tipografía bold y moderna (sans-serif)
+- Iconografía minimalista y tecnológica
+- Bordes redonneados en cards/tarjetas
+- Jerarquía visual clara de menor a mayor precio
+
+TIPO DE INFOGRAFÍA:
+Infografía de comparación de precios/servicios (Pricing Comparison)
+Formato: Vertical (ideal para redes sociales e impresión)
+Dimensiones recomendadas: 1080x1920px (stories) o 800x2000px (largo)
+
+ESTRUCTURA DE CONTENIDO:
+
+[INFOGRAFÍA 1 - Paquetes Iniciales]
+Título: "PAQUETES DE DESARROLLO WEB"
+Subtítulo: "PARTE 1 DE 2"
+
+Paquete 1 - ECONÓMICO
+- Precio: $5,550 MXN
+- Tiempo: 5-7 días
+- Color de acento: Cyan (#22d3ee)
+- Incluye:
+  • Hasta 2 secciones de información
+  • Diseño Web 100% responsivo
+  • Certificado SSL incluido
+  • Hosting por 1 año
+  • Dominio .com por 1 año
+  • Presencia rápida en Internet
+- Ideal para: Emprendedores y startups
+
+Paquete 2 - EMPRENDEDOR
+- Precio: $6,800 MXN
+- Tiempo: 7-10 días
+- Color de acento: Sky blue (#38bdf8)
+- Incluye:
+  • Hasta 4 secciones de contenido
+  • Diseño Web responsivo premium
+  • Certificado SSL incluido
+  • Hosting optimizado 1 año
+  • Dominio .com por 1 año
+  • Muestra tus productos/servicios
+- Ideal para: Emprendedores en crecimiento
+
+Paquete 3 - NEGOCIOS
+- Precio: $8,800 MXN
+- Tiempo: 7-10 días
+- Color de acento: Indigo (#818cf8)
+- Incluye:
+  • Hasta 6 secciones profesionales
+  • Diseño responsive avanzado
+  • Compatibilidad total móviles
+  • Certificado SSL Premium
+  • Hosting + Dominio 1 año
+  • Imagen profesional de marca
+- Ideal para: Negocios establecidos
+
+Paquete 4 - MICROEMPRESA
+- Precio: $10,800 MXN
+- Tiempo: 7-10 días
+- Color de acento: Púrpura (#a78bfa)
+- Incluye:
+  • Hasta 8 secciones completas
+  • Diseño Web moderno 2025
+  • Seguridad informática avanzada
+  • Cifrado SSL de alto nivel
+  • Hosting + Dominio premium
+  • Formularios de contacto
+- Ideal para: Microempresas y PyMEs
+
+[INFOGRAFÍA 2 - Paquetes Premium]
+Título: "PAQUETES PREMIUM"
+Subtítulo: "PARTE 2 DE 2"
+
+Paquete 5 - PYME
+- Precio: $12,800 MXN
+- Tiempo: 7-14 días
+- Color de acento: Light purple (#c084fc)
+- Incluye:
+  • Hasta 10 secciones completas
+  • Diseño moderno y profesional
+  • Enfoque en venta de productos
+  • SEO básico optimizado
+  • Hosting + Dominio + SSL
+  • Formularios avanzados
+  • Integración redes sociales
+- Ideal para: Pequeñas y Medianas Empresas
+
+Paquete 6 - EMPRESARIAL
+- Precio: $14,800 MXN
+- Tiempo: 7-14 días
+- Color de acento: Pink (#f472b6)
+- Incluye:
+  • Hasta 12 secciones premium
+  • Diseño web de alta eficiencia
+  • Seguridad informática SSL+
+  • Velocidad de carga optimizada
+  • Panel administrativo CMS
+  • Soporte técnico prioritario
+  • Analytics integrado
+- Ideal para: Empresas establecidas
+
+Paquete 7 - WEB PRO ⭐
+- Precio: $14,499 MXN
+- Tiempo: 20-25 días
+- Color de acento: Orange (#fb923c)
+- Badge: "RECOMENDADO"
+- Incluye:
+  • Secciones ilimitadas
+  • Optimización SEO Local completa
+  • Google My Business integrado
+  • Retoque profesional de textos
+  • Panel administrativo avanzado
+  • Capacitación de 2 horas
+  • Auditoría de posicionamiento
+- Ideal para: Dueños de negocio ambiciosos
+
+Paquete 8 - WEB PRO PLUS ⭐⭐
+- Precio: $17,799 MXN
+- Tiempo: +20 días
+- Color de acento: Gold (#fbbf24)
+- Badge: "PREMIUM" con efecto brillante
+- Incluye:
+  • Todo de WEB PRO incluido
+  • Landing Page adicional
+  • Estructura 100% enfocada a ventas
+  • Sistema de captación de leads
+  • Auditoría completa de ventas
+  • Estrategia de conversión
+  • Soporte premium 6 meses
+- Ideal para: Empresas enfocadas en ventas
+
+FOOTER:
+- Ubicación: La Paz, Baja California Sur
+- Web: nextwave-ia.com
+- CTA: "CONTÁCTANOS HOY" / "AGENDA TU CONSULTA GRATIS"
+- © 2025 NextWave IA
+
+ELEMENTOS VISUALES ADICIONALES:
+- Incluir iconos de: cohete, gráfica, escudo, engranaje, código, nube, velocímetro
+- Patrón de fondo: líneas de circuitos o grid tecnológico sutil
+- Efecto de ondas o "wave" relacionado con el nombre de la marca
+- Esfera de red neuronal o cerebro digital como elemento decorativo
+- Checkmarks (✓) para las características incluidas
+- Badges numerados (1-8) para cada paquete
+- Gradiente visual que va de cyan (básico) a dorado (premium)
