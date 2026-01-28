@@ -265,9 +265,13 @@ function Infografia({
           <div className="shrink-0">
             <div
               data-testid="img-logo"
-              className="nw-logo h-12 w-[140px] overflow-hidden rounded-xl border"
+              className="nw-logo h-16 w-[180px] overflow-hidden rounded-xl border"
               style={{
                 backgroundImage: `url(${logo})`,
+                backgroundSize: 'contain',
+                backgroundRepeat: 'no-repeat',
+                backgroundPosition: 'center',
+                backgroundColor: 'rgba(10, 14, 26, 0.4)'
               }}
               role="img"
               aria-label="NextWave IA"
@@ -289,15 +293,6 @@ function Infografia({
             >
               La Paz, Baja California Sur
             </div>
-            <a
-              data-testid="link-website"
-              href="https://nextwave-ia.com"
-              target="_blank"
-              rel="noreferrer"
-              className="inline-flex items-center gap-2 text-sm font-semibold text-white/90 hover:text-white"
-            >
-              nextwave-ia.com <ExternalLink size={14} />
-            </a>
             <div
               data-testid="text-copyright"
               className="text-[11px] text-white/45"
@@ -308,7 +303,9 @@ function Infografia({
 
           <a
             data-testid="button-cta"
-            href="#"
+            href="https://wa.me/526122893294"
+            target="_blank"
+            rel="noreferrer"
             className="nw-cta inline-flex items-center justify-center gap-2 rounded-2xl px-4 py-3 text-sm font-extrabold"
           >
             {footerCta}

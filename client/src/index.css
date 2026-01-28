@@ -99,11 +99,9 @@
   --chart-4: 270 85% 73%;
   --chart-5: 41 96% 56%;
 
-  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, Segoe UI, Roboto,
-    Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  --font-sans: "Rajdhani", system-ui, sans-serif;
   --font-serif: Georgia, serif;
-  --font-mono: "Geist Mono", ui-monospace, SFMono-Regular, Menlo, Monaco,
-    Consolas, "Liberation Mono", "Courier New", monospace;
+  --font-mono: "Geist Mono", monospace;
   --radius: 0.9rem;
 
   --shadow-2xs: 0px 2px 0px 0px rgba(0, 212, 255, 0);
@@ -227,7 +225,7 @@
 
 @layer utilities {
   .font-display {
-    font-family: "Oxanium", ui-sans-serif, system-ui;
+    font-family: "Orbitron", sans-serif;
   }
 
   .nw-page {
