@@ -484,12 +484,15 @@ export default function Infografias() {
     <div data-testid="page-infografias" className="nw-page">
       <div className="nw-bg" aria-hidden />
 
-      <div className="relative mx-auto w-full max-w-[980px] px-4 py-10 sm:py-14">
+      <div className="relative mx-auto w-full max-w-[920px] px-4 py-10 sm:py-14">
         <div className="flex flex-col items-start justify-between gap-4 sm:flex-row sm:items-center">
           <div>
             <div
               data-testid="text-brand"
-              className="text-xs font-bold tracking-[0.22em] uppercase text-white/60"
+              className="text-xs font-bold tracking-[0.22em] uppercase text-white/80 transition-all duration-500 hover:text-white"
+              style={{
+                textShadow: '0 0 10px rgba(255,255,255,0.4), 0 0 20px rgba(92,225,230,0.2)',
+              }}
             >
               NextWave IA
             </div>
