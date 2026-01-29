@@ -12,7 +12,7 @@ import {
   ArrowLeftRight,
   ExternalLink,
 } from "lucide-react";
-import logo from "@assets/NextWave_IA_HD_1769640650304.jpg";
+import logo from "@assets/logo-inphografic.png";
 
 type PackageItem = {
   id: number;
@@ -106,15 +106,12 @@ function Card({
               data-testid={`text-package-number-${item.id}`}
               className="inline-flex h-8 w-8 items-center justify-center rounded-full text-sm font-extrabold"
               style={{
-                background: `linear-gradient(180deg, color-mix(in oklab, ${
-                  item.accent
-                } 28%, rgba(255,255,255,.10)), rgba(0,0,0,.0))`,
-                border: `1px solid color-mix(in oklab, ${
-                  item.accent
-                } 40%, rgba(148,163,184,.25))`,
-                boxShadow: `0 0 18px color-mix(in oklab, ${
-                  item.accent
-                } 35%, transparent)`,
+                background: `linear-gradient(180deg, color-mix(in oklab, ${item.accent
+                  } 28%, rgba(255,255,255,.10)), rgba(0,0,0,.0))`,
+                border: `1px solid color-mix(in oklab, ${item.accent
+                  } 40%, rgba(148,163,184,.25))`,
+                boxShadow: `0 0 18px color-mix(in oklab, ${item.accent
+                  } 35%, transparent)`,
               }}
             >
               {item.id}
@@ -141,9 +138,8 @@ function Card({
             className="font-display text-[22px] font-extrabold tracking-tight"
             style={{
               color: "#ffffff",
-              textShadow: `0 0 22px color-mix(in oklab, ${
-                item.accent
-              } 35%, transparent)`,
+              textShadow: `0 0 22px color-mix(in oklab, ${item.accent
+                } 35%, transparent)`,
             }}
           >
             {item.price}
@@ -184,9 +180,8 @@ function Card({
                 className="mt-[2px] inline-flex h-5 w-5 items-center justify-center rounded-md"
                 style={{
                   background: `color-mix(in oklab, ${item.accent} 18%, rgba(255,255,255,.02))`,
-                  border: `1px solid color-mix(in oklab, ${
-                    item.accent
-                  } 30%, rgba(148,163,184,.18))`,
+                  border: `1px solid color-mix(in oklab, ${item.accent
+                    } 30%, rgba(148,163,184,.18))`,
                 }}
               >
                 <Check size={14} style={{ color: item.accent }} />
@@ -267,23 +262,31 @@ function Infografia({
               data-testid="img-logo"
               className="nw-logo-container relative h-20 w-[220px] overflow-hidden rounded-xl border border-white/10"
             >
-              <div 
+              <div
                 className="nw-logo-glow absolute inset-0 opacity-0 transition-opacity duration-700 group-hover:opacity-100"
                 style={{
                   background: 'radial-gradient(circle at center, rgba(0, 212, 255, 0.4), transparent 70%)',
                 }}
               />
-              <div
-                className="nw-logo-img h-full w-full bg-center bg-no-repeat"
+              <img
+                src={logo}
+                alt="NextWave IA"
+                loading="eager"
+                className="nw-logo-img h-full w-full object-fill"
                 style={{
-                  backgroundImage: `url(${logo})`,
-                  backgroundSize: '115%', // Zoom slighty to avoid cropped edges
+                  imageRendering: 'auto',
                   filter: 'contrast(1.1) brightness(1.1)',
                 }}
-                role="img"
-                aria-label="NextWave IA"
               />
-              <div className="nw-logo-scanner absolute inset-0 pointer-events-none" />
+              {/* Nuevo efecto HUD Scan sutil */}
+              <div
+                className="absolute inset-0 pointer-events-none"
+                style={{
+                  background: 'linear-gradient(to bottom, transparent 40%, rgba(92, 225, 230, 0.1) 50%, transparent 60%)',
+                  willChange: 'transform', // Force GPU layer
+                  animation: 'nw-hud-scan 3s linear infinite',
+                }}
+              />
             </div>
           </div>
         </header>
