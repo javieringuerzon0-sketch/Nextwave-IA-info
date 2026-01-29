@@ -260,7 +260,7 @@ function Infografia({
           <div className="shrink-0">
             <div
               data-testid="img-logo"
-              className="nw-logo-container relative h-20 w-[220px] overflow-hidden rounded-xl border border-white/10"
+              className="nw-logo-container relative h-14 w-[160px] shrink-0 overflow-hidden rounded-xl border border-white/10 sm:h-20 sm:w-[220px]"
             >
               <div
                 className="nw-logo-glow absolute inset-0 opacity-0 transition-opacity duration-700 group-hover:opacity-100"
@@ -486,20 +486,7 @@ export default function Infografias() {
 
       <div className="relative mx-auto w-full max-w-[980px] px-4 py-10 sm:py-14">
         <div className="flex flex-col items-start justify-between gap-4 sm:flex-row sm:items-center">
-          <div>
-            <div
-              data-testid="text-brand"
-              className="text-xs font-bold tracking-[0.22em] uppercase text-white/60"
-            >
-              NextWave IA
-            </div>
-            <div
-              data-testid="text-helper"
-              className="mt-1 text-sm text-[hsl(var(--nw-muted))]"
-            >
-              Infografías listas para Stories (1080×1920) y formato largo.
-            </div>
-          </div>
+          <div className="flex-1" />
 
           <div className="inline-flex items-center gap-2 rounded-2xl border bg-white/5 p-1">
             <button
