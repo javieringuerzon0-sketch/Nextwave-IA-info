@@ -348,7 +348,6 @@ export default function Infografias() {
           "Certificado SSL incluido",
           "Hosting por 1 año",
           "Dominio .com por 1 año",
-          "Presencia rápida en Internet",
         ],
         idealFor: "Emprendedores y startups",
       },
