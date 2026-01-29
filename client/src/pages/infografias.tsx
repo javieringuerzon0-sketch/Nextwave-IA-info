@@ -486,7 +486,14 @@ export default function Infografias() {
 
       <div className="relative mx-auto w-full max-w-[980px] px-4 py-10 sm:py-14">
         <div className="flex flex-col items-start justify-between gap-4 sm:flex-row sm:items-center">
-          <div className="flex-1" />
+          <div>
+            <div
+              data-testid="text-brand"
+              className="text-xs font-bold tracking-[0.22em] uppercase text-white/60"
+            >
+              NextWave IA
+            </div>
+          </div>
 
           <div className="inline-flex items-center gap-2 rounded-2xl border bg-white/5 p-1">
             <button
