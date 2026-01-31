@@ -272,21 +272,13 @@ function Infografia({
                 src={logo}
                 alt="NextWave IA"
                 loading="eager"
-                className="nw-logo-img h-full w-full object-fill"
+                className="nw-logo-img nw-logo-animated h-full w-full object-fill"
                 style={{
                   imageRendering: 'auto',
-                  filter: 'contrast(1.1) brightness(1.1)',
                 }}
               />
-              {/* Nuevo efecto HUD Scan sutil */}
-              <div
-                className="absolute inset-0 pointer-events-none"
-                style={{
-                  background: 'linear-gradient(to bottom, transparent 40%, rgba(92, 225, 230, 0.1) 50%, transparent 60%)',
-                  willChange: 'transform', // Force GPU layer
-                  animation: 'nw-hud-scan 3s linear infinite',
-                }}
-              />
+              {/* Efecto HUD Scan Reconstruido */}
+              <div className="nw-scanline" />
             </div>
           </div>
         </header>
@@ -317,7 +309,7 @@ function Infografia({
             data-testid="button-cta"
             href="https://wa.me/526122893294"
             target="_blank"
-            rel="noreferrer"
+            rel="noreferrer noopener"
             className="nw-cta inline-flex items-center justify-center gap-2 rounded-2xl px-4 py-3 text-sm font-extrabold"
           >
             {footerCta}

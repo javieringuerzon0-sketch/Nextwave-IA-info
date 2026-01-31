@@ -250,6 +250,7 @@
       linear-gradient(rgba(92, 225, 230, 0.12) 1px, transparent 1px),
       linear-gradient(90deg, rgba(167, 139, 250, 0.10) 1px, transparent 1px);
     background-size: 52px 52px;
+    -webkit-mask-image: radial-gradient(circle at 30% 10%, black 10%, transparent 62%);
     mask-image: radial-gradient(circle at 30% 10%, black 10%, transparent 62%);
   }
 
@@ -260,8 +261,8 @@
     background:
       radial-gradient(1200px 240px at 50% 18%, rgba(0, 212, 255, 0.22), transparent 70%),
       radial-gradient(1200px 240px at 50% 28%, rgba(139, 92, 246, 0.18), transparent 72%);
-    mask-image:
-      radial-gradient(800px 400px at 50% 20%, black 40%, transparent 75%);
+    -webkit-mask-image: radial-gradient(800px 400px at 50% 20%, black 40%, transparent 75%);
+    mask-image: radial-gradient(800px 400px at 50% 20%, black 40%, transparent 75%);
   }
 
   .nw-orb {
@@ -280,6 +281,7 @@
     box-shadow:
       0 0 0 1px rgba(255, 255, 255, 0.06) inset,
       0 0 50px rgba(0, 212, 255, 0.18);
+    -webkit-mask-image: radial-gradient(circle, black 55%, transparent 70%);
     mask-image: radial-gradient(circle, black 55%, transparent 70%);
   }
 
@@ -310,11 +312,53 @@
   @keyframes nw-hud-scan {
     0% {
       transform: translateY(-100%);
+      opacity: 0;
+    }
+
+    15% {
+      opacity: 0.5;
+    }
+
+    85% {
+      opacity: 0.5;
     }
 
     100% {
       transform: translateY(100%);
+      opacity: 0;
     }
+  }
+
+  @keyframes nw-logo-pulse {
+
+    0%,
+    100% {
+      filter: brightness(1) drop-shadow(0 0 5px rgba(92, 225, 230, 0.2));
+    }
+
+    50% {
+      filter: brightness(1.2) drop-shadow(0 0 15px rgba(92, 225, 230, 0.5));
+    }
+  }
+
+  .nw-scanline {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background: linear-gradient(to bottom,
+        transparent,
+        rgba(92, 225, 230, 0.2) 45%,
+        rgba(92, 225, 230, 0.6) 50%,
+        rgba(92, 225, 230, 0.2) 55%,
+        transparent);
+    height: 20px;
+    width: 100%;
+    z-index: 10;
+    animation: nw-hud-scan 3s linear infinite;
+  }
+
+  .nw-logo-animated {
+    animation: nw-logo-pulse 4s ease-in-out infinite;
   }
 
   .nw-logo {
