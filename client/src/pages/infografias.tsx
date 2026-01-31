@@ -12,7 +12,7 @@ import {
   ArrowLeftRight,
   ExternalLink,
 } from "lucide-react";
-import logo from "@assets/logo-inphografic.png";
+import logo from "@assets/logo-nw.png";
 
 type PackageItem = {
   id: number;
